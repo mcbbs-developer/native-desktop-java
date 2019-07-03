@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.event.net;
+package net.mcbbs.app.desktop.java.api.plugin.event.net;
 
 public abstract class SocketEvent extends NetEvent {
     public abstract String data();

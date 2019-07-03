@@ -1,4 +1,4 @@
-package net.mcbbs.client.util.thread;
+package net.mcbbs.app.desktop.java.util.thread;
 
 import java.util.ArrayList;
 import java.util.Arrays;

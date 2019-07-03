@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.mapper;
+package net.mcbbs.app.desktop.java.api.plugin.mapper;
 
 import java.lang.reflect.Method;
 import java.util.function.Function;

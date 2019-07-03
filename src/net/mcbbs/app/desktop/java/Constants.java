@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client;
+package net.mcbbs.app.desktop.java;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

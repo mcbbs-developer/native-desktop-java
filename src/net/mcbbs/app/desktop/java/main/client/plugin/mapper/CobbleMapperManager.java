@@ -14,17 +14,17 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.plugin.mapper;
+package net.mcbbs.app.desktop.java.main.client.plugin.mapper;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.MultimapBuilder;
 import com.google.inject.Singleton;
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.mapper.Mapper;
-import net.mcbbs.client.api.plugin.mapper.MapperManager;
-import net.mcbbs.client.main.client.plugin.loading.PluginLoaderVirtualRef;
-import net.mcbbs.client.util.InvocationHandlerFactory;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.mapper.Mapper;
+import net.mcbbs.app.desktop.java.api.plugin.mapper.MapperManager;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoaderVirtualRef;
+import net.mcbbs.app.desktop.java.util.InvocationHandlerFactory;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

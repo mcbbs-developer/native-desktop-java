@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.command;
+package net.mcbbs.app.desktop.java.main.client.command;
 
 public enum CommandType {
     EXECUTE,DATA;

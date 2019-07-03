@@ -14,15 +14,15 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.command;
+package net.mcbbs.app.desktop.java.main.client.command;
 
 import com.google.gson.JsonObject;
-import net.mcbbs.client.Constants;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
-import static net.mcbbs.client.Constants.*;
+
+import static net.mcbbs.app.desktop.java.Constants.DEFAULT_PARSER;
 public class Command {
     private static final CommandParser DEFAULT_CPARSER = new CommandParser();
     private final CommandType type;

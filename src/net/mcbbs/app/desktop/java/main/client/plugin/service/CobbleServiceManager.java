@@ -14,12 +14,12 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.plugin.service;
+package net.mcbbs.app.desktop.java.main.client.plugin.service;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.service.ServiceManager;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.service.ServiceManager;
 
 import javax.annotation.Nonnull;
 import java.util.List;

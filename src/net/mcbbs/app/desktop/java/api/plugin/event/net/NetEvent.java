@@ -14,9 +14,9 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.event.net;
+package net.mcbbs.app.desktop.java.api.plugin.event.net;
 
-import net.mcbbs.client.api.plugin.event.Event;
+import net.mcbbs.app.desktop.java.api.plugin.event.Event;
 
 public abstract class NetEvent implements Event {
 }

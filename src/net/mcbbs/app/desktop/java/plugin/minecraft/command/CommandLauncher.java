@@ -14,14 +14,14 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft.command;
+package net.mcbbs.app.desktop.java.plugin.minecraft.command;
 
 import com.google.common.base.Function;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
-import net.mcbbs.client.api.plugin.command.CommandResult;
-import net.mcbbs.client.api.plugin.command.CommandResultType;
-import net.mcbbs.client.api.plugin.command.IPluginCommand;
+import net.mcbbs.app.desktop.java.api.plugin.command.CommandResult;
+import net.mcbbs.app.desktop.java.api.plugin.command.CommandResultType;
+import net.mcbbs.app.desktop.java.api.plugin.command.IPluginCommand;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 import java.util.Map;

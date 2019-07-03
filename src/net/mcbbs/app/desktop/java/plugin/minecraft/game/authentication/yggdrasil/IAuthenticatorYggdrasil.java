@@ -14,10 +14,10 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft.game.authentication.yggdrasil;
+package net.mcbbs.app.desktop.java.plugin.minecraft.game.authentication.yggdrasil;
 
 import com.google.gson.JsonObject;
-import net.mcbbs.client.plugin.minecraft.game.authentication.AuthenticationException;
+import net.mcbbs.app.desktop.java.plugin.minecraft.game.authentication.AuthenticationException;
 
 public interface IAuthenticatorYggdrasil {
 

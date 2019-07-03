@@ -14,12 +14,12 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.fixer;
+package net.mcbbs.app.desktop.java.fixer;
 
 import com.google.common.collect.Maps;
 import com.google.gson.*;
 import com.google.gson.stream.JsonReader;
-import net.mcbbs.client.util.*;
+import net.mcbbs.app.desktop.java.util.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;

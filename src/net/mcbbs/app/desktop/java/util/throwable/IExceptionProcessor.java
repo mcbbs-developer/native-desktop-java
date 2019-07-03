@@ -1,4 +1,4 @@
-package net.mcbbs.client.util.throwable;
+package net.mcbbs.app.desktop.java.util.throwable;
 
 
 import javax.annotation.Nonnull;

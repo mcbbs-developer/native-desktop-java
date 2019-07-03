@@ -14,11 +14,11 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.event;
+package net.mcbbs.app.desktop.java.api.plugin.event;
 
-import net.mcbbs.client.api.plugin.command.ICommandManager;
-import net.mcbbs.client.api.plugin.command.IPluginCommand;
-import net.mcbbs.client.main.client.plugin.loading.PluginLoaderVirtualRef;
+import net.mcbbs.app.desktop.java.api.plugin.command.ICommandManager;
+import net.mcbbs.app.desktop.java.api.plugin.command.IPluginCommand;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoaderVirtualRef;
 
 import javax.annotation.Nonnull;
 

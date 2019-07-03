@@ -14,9 +14,9 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.service;
+package net.mcbbs.app.desktop.java.api.plugin.service;
 
-import net.mcbbs.client.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
 
 public interface ServiceManager {
     <T> void provides(IPlugin plugin, Class<T> serviceClass, T serviceImpl);

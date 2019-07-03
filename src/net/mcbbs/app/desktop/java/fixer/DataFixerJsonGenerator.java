@@ -14,13 +14,13 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.fixer;
+package net.mcbbs.app.desktop.java.fixer;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import net.mcbbs.client.util.ExceptionUtils;
-import net.mcbbs.client.util.FileInfo;
-import net.mcbbs.client.util.MessageDigestUtils;
+import net.mcbbs.app.desktop.java.util.ExceptionUtils;
+import net.mcbbs.app.desktop.java.util.FileInfo;
+import net.mcbbs.app.desktop.java.util.MessageDigestUtils;
 
 import java.io.IOException;
 import java.nio.file.Files;

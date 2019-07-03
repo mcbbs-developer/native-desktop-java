@@ -14,13 +14,13 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.command;
+package net.mcbbs.app.desktop.java.main.client.command;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import net.mcbbs.client.Constants;
-import net.mcbbs.client.util.TypeUtils;
+import net.mcbbs.app.desktop.java.Constants;
+import net.mcbbs.app.desktop.java.util.TypeUtils;
 
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;

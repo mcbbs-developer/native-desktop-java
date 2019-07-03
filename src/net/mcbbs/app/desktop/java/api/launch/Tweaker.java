@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.launch;
+package net.mcbbs.app.desktop.java.api.launch;
 
 public interface Tweaker {
 }

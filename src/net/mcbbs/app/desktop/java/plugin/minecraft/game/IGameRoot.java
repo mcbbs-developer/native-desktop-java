@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft.game;
+package net.mcbbs.app.desktop.java.plugin.minecraft.game;
 
 import java.io.IOException;
 import java.nio.file.Path;

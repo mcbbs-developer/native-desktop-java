@@ -1,7 +1,7 @@
-package net.mcbbs.client.util;
+package net.mcbbs.app.desktop.java.util;
 
 import com.google.gson.JsonElement;
-import net.mcbbs.client.Constants;
+import net.mcbbs.app.desktop.java.Constants;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -61,10 +61,10 @@ public final class IOUtils {
     }
 
     /**
-     * get a {@link net.mcbbs.client.util.IOStream} from the specified address
+     * get a {@link IOStream} from the specified address
      *
      * @param url target to connect
-     * @return A {@link net.mcbbs.client.util.IOStream} that contains a {@link java.io.InputStream} and a {@link java.io.OutputStream} linked to the specified address
+     * @return A {@link IOStream} that contains a {@link java.io.InputStream} and a {@link java.io.OutputStream} linked to the specified address
      * @throws IOException if giving a invalid path,failed to open a connection or a stream or connection timed out.
      */
     public static IOStream ioStream(String url) throws IOException {
@@ -72,11 +72,11 @@ public final class IOUtils {
     }
 
     /**
-     * get a {@link net.mcbbs.client.util.IOStream} from the specified address
+     * get a {@link IOStream} from the specified address
      *
      * @param in  target that {@link java.io.InputStream} connects to
      * @param out target that {@link java.io.OutputStream} connects to
-     * @return A {@link net.mcbbs.client.util.IOStream} that contains a {@link java.io.InputStream} and a {@link java.io.OutputStream} linked to the specified address
+     * @return A {@link IOStream} that contains a {@link java.io.InputStream} and a {@link java.io.OutputStream} linked to the specified address
      * @throws IOException if giving a invalid path,failed to open a connection or a stream or connection timed out.
      */
     public static IOStream ioStream(String in, String out) throws IOException {
@@ -129,11 +129,11 @@ public final class IOUtils {
     }
 
     /**
-     * combine a {@link java.io.InputStream} and a {@link java.io.OutputStream} to a utility {@link net.mcbbs.client.util.IOStream}.
+     * combine a {@link java.io.InputStream} and a {@link java.io.OutputStream} to a utility {@link IOStream}.
      *
      * @param out a {@link java.io.OutputStream}
      * @param in  a {@link java.io.InputStream}
-     * @return a {@link net.mcbbs.client.util.IOStream} with two streams combined together
+     * @return a {@link IOStream} with two streams combined together
      */
     public static IOStream combine(OutputStream out, InputStream in) {
         return new IOStream(in, out);

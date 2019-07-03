@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.service;
+package net.mcbbs.app.desktop.java.api.plugin.service;
 
 public interface Service<I, O> {
     O invoke(I arg) throws Exception;

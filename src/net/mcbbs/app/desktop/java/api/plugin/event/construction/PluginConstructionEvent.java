@@ -14,13 +14,13 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.event.construction;
+package net.mcbbs.app.desktop.java.api.plugin.event.construction;
 
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.event.Event;
-import net.mcbbs.client.api.plugin.service.ServiceManager;
-import net.mcbbs.client.main.client.plugin.loading.PluginLoader;
-import net.mcbbs.client.main.client.plugin.loading.PluginLoaderVirtualRef;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.event.Event;
+import net.mcbbs.app.desktop.java.api.plugin.service.ServiceManager;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoader;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoaderVirtualRef;
 
 import javax.annotation.Nonnull;
 

@@ -1,4 +1,4 @@
-package net.mcbbs.client.api.plugin.command;
+package net.mcbbs.app.desktop.java.api.plugin.command;
 
 public interface ICommandManager {
     <T, R> void provide(String pluginId, String commandName, IPluginCommand<T, R> type);

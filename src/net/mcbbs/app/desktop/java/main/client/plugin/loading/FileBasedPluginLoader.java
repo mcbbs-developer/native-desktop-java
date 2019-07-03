@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.plugin.loading;
+package net.mcbbs.app.desktop.java.main.client.plugin.loading;
 
 import com.google.common.collect.Maps;
 import com.google.common.eventbus.AsyncEventBus;
@@ -24,18 +24,18 @@ import com.google.inject.Injector;
 import com.google.inject.Module;
 import com.google.inject.Scopes;
 import com.google.inject.name.Names;
-import net.mcbbs.client.api.plugin.BoxedPlugin;
-import net.mcbbs.client.api.plugin.Client;
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.command.ICommandManager;
-import net.mcbbs.client.api.plugin.event.construction.MappingEvent;
-import net.mcbbs.client.api.plugin.event.construction.PluginConstructionEvent;
-import net.mcbbs.client.api.plugin.mapper.MapperManager;
-import net.mcbbs.client.api.plugin.meta.PluginMetadata;
-import net.mcbbs.client.api.plugin.service.ServiceManager;
-import net.mcbbs.client.main.client.plugin.command.CobbleCommandManager;
-import net.mcbbs.client.main.client.plugin.mapper.CobbleMapperManager;
-import net.mcbbs.client.main.client.plugin.service.CobbleServiceManager;
+import net.mcbbs.app.desktop.java.api.plugin.BoxedPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.Client;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.command.ICommandManager;
+import net.mcbbs.app.desktop.java.api.plugin.event.construction.MappingEvent;
+import net.mcbbs.app.desktop.java.api.plugin.event.construction.PluginConstructionEvent;
+import net.mcbbs.app.desktop.java.api.plugin.mapper.MapperManager;
+import net.mcbbs.app.desktop.java.api.plugin.meta.PluginMetadata;
+import net.mcbbs.app.desktop.java.api.plugin.service.ServiceManager;
+import net.mcbbs.app.desktop.java.main.client.plugin.command.CobbleCommandManager;
+import net.mcbbs.app.desktop.java.main.client.plugin.mapper.CobbleMapperManager;
+import net.mcbbs.app.desktop.java.main.client.plugin.service.CobbleServiceManager;
 import org.yaml.snakeyaml.Yaml;
 
 import javax.script.Bindings;

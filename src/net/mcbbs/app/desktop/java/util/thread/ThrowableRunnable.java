@@ -1,6 +1,6 @@
-package net.mcbbs.client.util.thread;
+package net.mcbbs.app.desktop.java.util.thread;
 
-import net.mcbbs.client.util.throwable.IThrowableProcessor;
+import net.mcbbs.app.desktop.java.util.throwable.IThrowableProcessor;
 
 import java.util.Collection;
 import java.util.LinkedList;

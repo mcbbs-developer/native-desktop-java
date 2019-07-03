@@ -1,7 +1,7 @@
-package net.mcbbs.client.util.network;
+package net.mcbbs.app.desktop.java.util.network;
 
-import net.mcbbs.client.util.network.processor.ImmutableProcessorPipeline;
-import net.mcbbs.client.util.thread.ThrowableRunnable;
+import net.mcbbs.app.desktop.java.util.network.processor.ImmutableProcessorPipeline;
+import net.mcbbs.app.desktop.java.util.thread.ThrowableRunnable;
 
 public interface IServer<P> extends ThrowableRunnable {
     void addPipe(String pipe, ImmutableProcessorPipeline<P> pipeline);

@@ -14,10 +14,9 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.command;
+package net.mcbbs.app.desktop.java.api.plugin.command;
 
 import com.google.common.collect.Lists;
-import net.mcbbs.client.main.client.command.Command;
 
 import java.util.List;
 

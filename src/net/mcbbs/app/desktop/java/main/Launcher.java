@@ -14,12 +14,12 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main;
+package net.mcbbs.app.desktop.java.main;
 
+import net.mcbbs.app.desktop.java.main.client.net.WSClient;
 import net.mcbbs.client.main.client.game.Game;
-import net.mcbbs.client.main.client.net.WSClient;
-import net.mcbbs.client.main.client.plugin.loading.FileBasedPluginLoader;
-import net.mcbbs.client.main.client.plugin.loading.PluginLoader;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.FileBasedPluginLoader;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoader;
 
 /**
  * @author yinyangshi InitAuther97

@@ -1,7 +1,7 @@
-package net.mcbbs.client.util.network.processor;
+package net.mcbbs.app.desktop.java.util.network.processor;
 
-import net.mcbbs.client.util.network.processor.user.IDataUser;
-import net.mcbbs.client.util.thread.SingleArgumentRunnable;
+import net.mcbbs.app.desktop.java.util.thread.SingleArgumentRunnable;
+import net.mcbbs.app.desktop.java.util.network.processor.user.IDataUser;
 
 public final class ChainProcessorFactory {
     public static <A> IDataUser<A> newSimpleDataUser(Class<A> aClass, SingleArgumentRunnable<A> runnable) {

@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin;
+package net.mcbbs.app.desktop.java.api.plugin;
 
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
@@ -23,10 +23,10 @@ import com.google.common.eventbus.EventBus;
 import com.google.common.eventbus.Subscribe;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
-import net.mcbbs.client.api.plugin.command.ICommandManager;
-import net.mcbbs.client.api.plugin.event.Event;
-import net.mcbbs.client.api.plugin.mapper.MapperManager;
-import net.mcbbs.client.api.plugin.service.ServiceManager;
+import net.mcbbs.app.desktop.java.api.plugin.command.ICommandManager;
+import net.mcbbs.app.desktop.java.api.plugin.event.Event;
+import net.mcbbs.app.desktop.java.api.plugin.mapper.MapperManager;
+import net.mcbbs.app.desktop.java.api.plugin.service.ServiceManager;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

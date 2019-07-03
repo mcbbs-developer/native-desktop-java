@@ -14,9 +14,9 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.launch;
+package net.mcbbs.app.desktop.java.api.launch;
 
-import net.mcbbs.client.main.client.game.launch.Launcher;
+import net.mcbbs.app.desktop.java.plugin.minecraft.game.launch.Launcher;
 
 import javax.annotation.Nonnull;
 

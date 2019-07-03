@@ -1,12 +1,12 @@
-package net.mcbbs.client.plugin.clipboard;
+package net.mcbbs.app.desktop.java.plugin.clipboard;
 
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.Plugin;
-import net.mcbbs.client.api.plugin.event.construction.MappingEvent;
-import net.mcbbs.client.api.plugin.event.construction.PluginConstructionEvent;
-import net.mcbbs.client.api.plugin.meta.PluginMetadata;
-import net.mcbbs.client.api.plugin.service.Service;
-import net.mcbbs.client.util.InvocationHandlerFactory;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.Plugin;
+import net.mcbbs.app.desktop.java.api.plugin.event.construction.MappingEvent;
+import net.mcbbs.app.desktop.java.api.plugin.event.construction.PluginConstructionEvent;
+import net.mcbbs.app.desktop.java.api.plugin.meta.PluginMetadata;
+import net.mcbbs.app.desktop.java.api.plugin.service.Service;
+import net.mcbbs.app.desktop.java.util.InvocationHandlerFactory;
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;

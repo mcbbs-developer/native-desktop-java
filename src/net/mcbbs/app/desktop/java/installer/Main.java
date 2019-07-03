@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.installer;
+package net.mcbbs.app.desktop.java.installer;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -26,7 +26,7 @@ import java.io.IOException;
 @Deprecated
 public class Main extends Application {
     public static final Main INSTANCE = new Main();
-    private final Scene INSTALL;
+    final Scene INSTALL;
     private final Scene WELCOME;
     private final Scene EXIT_DIALOG;
     private final Scene LICENSE;

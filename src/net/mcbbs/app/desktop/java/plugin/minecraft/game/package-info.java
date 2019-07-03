@@ -17,4 +17,4 @@
 /**
  * Minecraft launching,logging-in&plugging-in APIs.
  */
-package net.mcbbs.client.main.client.game;
+package net.mcbbs.app.desktop.java.plugin.minecraft.game;

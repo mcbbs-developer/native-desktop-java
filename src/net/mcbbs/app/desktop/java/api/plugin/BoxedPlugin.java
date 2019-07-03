@@ -14,9 +14,9 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin;
+package net.mcbbs.app.desktop.java.api.plugin;
 
-import net.mcbbs.client.api.plugin.meta.PluginMetadata;
+import net.mcbbs.app.desktop.java.api.plugin.meta.PluginMetadata;
 
 public final class BoxedPlugin<T extends IPlugin> {
     protected final T plugin;

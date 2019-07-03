@@ -14,10 +14,10 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.mapper;
+package net.mcbbs.app.desktop.java.api.plugin.mapper;
 
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.util.InvocationHandlerFactory;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.util.InvocationHandlerFactory;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

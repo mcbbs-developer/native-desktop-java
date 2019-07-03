@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft.game.authentication;
+package net.mcbbs.app.desktop.java.plugin.minecraft.game.authentication;
 
 import java.util.Map;
 import java.util.Set;

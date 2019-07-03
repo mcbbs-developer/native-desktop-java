@@ -1,4 +1,4 @@
-package net.mcbbs.client.util.network.processor;
+package net.mcbbs.app.desktop.java.util.network.processor;
 
 public final class ProcessorChainline<I, O, O2> {
     protected final IProcessorChainable<I, O> first;

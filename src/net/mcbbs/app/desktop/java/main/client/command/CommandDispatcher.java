@@ -14,14 +14,14 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.command;
+package net.mcbbs.app.desktop.java.main.client.command;
 
 import com.google.common.collect.Lists;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import net.mcbbs.client.api.plugin.command.CommandResult;
-import net.mcbbs.client.main.client.command.task.CommandTask;
-import net.mcbbs.client.main.client.net.WSClient;
+import net.mcbbs.app.desktop.java.api.plugin.command.CommandResult;
+import net.mcbbs.app.desktop.java.main.client.command.task.CommandTask;
+import net.mcbbs.app.desktop.java.main.client.net.WSClient;
 
 import java.util.List;
 import java.util.UUID;
@@ -42,7 +42,7 @@ public final class CommandDispatcher {
                 CommandTask ct = new CommandTask(command,UUID.randomUUID()).callback(arg-> {
                     CommandResult result = (CommandResult) arg.get("result");
                     UUID taskid = (UUID) arg.get("taskId");
-                    JsonObject jsonObject = result.getCommand().asGJson();
+                    JsonObject jsonObject = ((Command) arg.get("command")).asGJson();
                     JsonArray array = jsonObject.getAsJsonArray("args");
                     array.add("id="+UUID.randomUUID());
                     for(Object thing:result.getResult()){

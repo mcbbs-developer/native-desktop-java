@@ -14,10 +14,10 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.plugin.loading;
+package net.mcbbs.app.desktop.java.main.client.plugin.loading;
 
-import net.mcbbs.client.api.plugin.BoxedPlugin;
-import net.mcbbs.client.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.BoxedPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
 
 import java.util.jar.JarFile;
 

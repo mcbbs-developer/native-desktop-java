@@ -1,6 +1,6 @@
-package net.mcbbs.client.util.network.processor.user;
+package net.mcbbs.app.desktop.java.util.network.processor.user;
 
-import net.mcbbs.client.util.network.processor.IProcessorChainable;
+import net.mcbbs.app.desktop.java.util.network.processor.IProcessorChainable;
 
 public interface IDataUser<A> extends IProcessorChainable<A, A> {
     void onReceived(A data);

@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.util;
+package net.mcbbs.app.desktop.java.util;
 
 public interface Callback<T> {
     void callback(T arg);

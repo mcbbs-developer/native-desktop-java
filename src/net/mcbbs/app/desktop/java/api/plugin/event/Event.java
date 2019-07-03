@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.event;
+package net.mcbbs.app.desktop.java.api.plugin.event;
 
 public interface Event {
     Object source();

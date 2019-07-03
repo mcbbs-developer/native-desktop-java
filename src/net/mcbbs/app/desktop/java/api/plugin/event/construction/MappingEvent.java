@@ -14,15 +14,15 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.event.construction;
+package net.mcbbs.app.desktop.java.api.plugin.event.construction;
 
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.event.Event;
-import net.mcbbs.client.api.plugin.mapper.Mapper;
-import net.mcbbs.client.api.plugin.mapper.MapperManager;
-import net.mcbbs.client.main.client.plugin.loading.PluginLoader;
-import net.mcbbs.client.main.client.plugin.loading.PluginLoaderVirtualRef;
-import net.mcbbs.client.util.InvocationHandlerFactory;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.event.Event;
+import net.mcbbs.app.desktop.java.api.plugin.mapper.Mapper;
+import net.mcbbs.app.desktop.java.api.plugin.mapper.MapperManager;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoader;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoaderVirtualRef;
+import net.mcbbs.app.desktop.java.util.InvocationHandlerFactory;
 
 public abstract class MappingEvent implements Event {
     public abstract PluginLoader source();

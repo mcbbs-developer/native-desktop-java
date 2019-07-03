@@ -14,9 +14,9 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.api.plugin.meta;
+package net.mcbbs.app.desktop.java.api.plugin.meta;
 
-import net.mcbbs.client.main.client.plugin.loading.PluginLoader;
+import net.mcbbs.app.desktop.java.main.client.plugin.loading.PluginLoader;
 
 import java.util.*;
 

@@ -14,11 +14,10 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft.game;
+package net.mcbbs.app.desktop.java.plugin.minecraft.game;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import net.mcbbs.client.main.client.command.CommandDispatcher;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;

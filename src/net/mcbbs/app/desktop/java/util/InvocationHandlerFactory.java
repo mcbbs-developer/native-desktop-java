@@ -1,4 +1,4 @@
-package net.mcbbs.client.util;
+package net.mcbbs.app.desktop.java.util;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;

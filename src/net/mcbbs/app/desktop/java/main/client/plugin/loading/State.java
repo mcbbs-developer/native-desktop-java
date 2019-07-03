@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.plugin.loading;
+package net.mcbbs.app.desktop.java.main.client.plugin.loading;
 
 public enum State implements Comparable<State> {
     NON_STARTING,

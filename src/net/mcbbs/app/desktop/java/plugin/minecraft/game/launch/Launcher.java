@@ -14,9 +14,9 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft.game.launch;
+package net.mcbbs.app.desktop.java.plugin.minecraft.game.launch;
 
-import net.mcbbs.client.plugin.minecraft.game.GameRoot;
+import net.mcbbs.app.desktop.java.plugin.minecraft.game.GameRoot;
 
 import java.io.IOException;
 

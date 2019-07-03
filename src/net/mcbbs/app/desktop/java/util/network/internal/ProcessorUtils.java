@@ -1,6 +1,6 @@
-package net.mcbbs.client.util.network.internal;
+package net.mcbbs.app.desktop.java.util.network.internal;
 
-import net.mcbbs.client.util.network.processor.ProcessorChainline;
+import net.mcbbs.app.desktop.java.util.network.processor.ProcessorChainline;
 
 import java.util.List;
 import java.util.ListIterator;

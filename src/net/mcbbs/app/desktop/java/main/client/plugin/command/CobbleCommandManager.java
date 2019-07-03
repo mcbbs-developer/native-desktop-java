@@ -1,11 +1,10 @@
-package net.mcbbs.client.main.client.plugin.command;
+package net.mcbbs.app.desktop.java.main.client.plugin.command;
 
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.MultimapBuilder;
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.command.ICommandManager;
-import net.mcbbs.client.api.plugin.command.IPluginCommand;
+import net.mcbbs.app.desktop.java.api.plugin.command.ICommandManager;
+import net.mcbbs.app.desktop.java.api.plugin.command.IPluginCommand;
 
 import java.util.Map;
 

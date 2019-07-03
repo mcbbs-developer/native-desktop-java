@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.installer;
+package net.mcbbs.app.desktop.java.installer;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

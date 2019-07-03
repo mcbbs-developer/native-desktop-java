@@ -1,4 +1,4 @@
-package net.mcbbs.client.util;
+package net.mcbbs.app.desktop.java.util;
 
 public class LocalFileInfo {
     public final String name;

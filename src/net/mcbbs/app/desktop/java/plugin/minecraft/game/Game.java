@@ -14,7 +14,7 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft.game;
+package net.mcbbs.app.desktop.java.plugin.minecraft.game;
 
 import com.google.common.annotations.Beta;
 import com.google.common.collect.Maps;

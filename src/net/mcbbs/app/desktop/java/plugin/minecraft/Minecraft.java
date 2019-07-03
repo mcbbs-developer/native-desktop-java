@@ -14,15 +14,15 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.plugin.minecraft;
+package net.mcbbs.app.desktop.java.plugin.minecraft;
 
-import net.mcbbs.client.api.plugin.IPlugin;
-import net.mcbbs.client.api.plugin.Plugin;
-import net.mcbbs.client.api.plugin.event.CommandEvent;
-import net.mcbbs.client.api.plugin.event.construction.MappingEvent;
-import net.mcbbs.client.api.plugin.event.construction.PluginConstructionEvent;
-import net.mcbbs.client.api.plugin.meta.PluginMetadata;
-import net.mcbbs.client.plugin.minecraft.command.CommandLauncher;
+import net.mcbbs.app.desktop.java.api.plugin.IPlugin;
+import net.mcbbs.app.desktop.java.api.plugin.Plugin;
+import net.mcbbs.app.desktop.java.api.plugin.event.CommandEvent;
+import net.mcbbs.app.desktop.java.api.plugin.event.construction.MappingEvent;
+import net.mcbbs.app.desktop.java.api.plugin.event.construction.PluginConstructionEvent;
+import net.mcbbs.app.desktop.java.api.plugin.meta.PluginMetadata;
+import net.mcbbs.app.desktop.java.plugin.minecraft.command.CommandLauncher;
 
 public class Minecraft implements IPlugin {
     String modid;

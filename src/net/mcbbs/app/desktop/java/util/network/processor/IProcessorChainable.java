@@ -1,4 +1,4 @@
-package net.mcbbs.client.util.network.processor;
+package net.mcbbs.app.desktop.java.util.network.processor;
 
 public interface IProcessorChainable<I, O> extends IProcessor<I> {
     Class<I> getInputType();

@@ -14,14 +14,14 @@
   limitations under the License.
  */
 
-package net.mcbbs.client.main.client.command.task;
+package net.mcbbs.app.desktop.java.main.client.command.task;
 
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
-import net.mcbbs.client.api.plugin.Client;
-import net.mcbbs.client.api.plugin.command.CommandResult;
-import net.mcbbs.client.main.client.command.Command;
-import net.mcbbs.client.util.Callback;
+import net.mcbbs.app.desktop.java.api.plugin.Client;
+import net.mcbbs.app.desktop.java.api.plugin.command.CommandResult;
+import net.mcbbs.app.desktop.java.main.client.command.Command;
+import net.mcbbs.app.desktop.java.util.Callback;
 
 import java.util.Map;
 import java.util.Set;
@@ -57,6 +57,7 @@ public class CommandTask extends FutureTask<CommandResult> {
                 Map<String,Object> map = Maps.newHashMap();
                 map.put("result",get());
                 map.put("taskId",taskId);
+                map.put("command",command);
                 cb.callback(map);
             } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
