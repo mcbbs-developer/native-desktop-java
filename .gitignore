@@ -1,0 +1,9 @@
+###################
+# Global ignoring #
+###################
+.gradle/*
+.idea/*
+gradle/*
+*.iml
+*.ipr
+*.iws

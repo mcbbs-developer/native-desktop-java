@@ -30,18 +30,14 @@ import java.util.List;
 public class CommandResult<R> {
     private final CommandResultType type;
     private final List<? extends R> result;
-    private final Command command;
 
     /**
-     *
-     * @param command 执行的命令
      * @param type 命令结果类型
      * @param result 命令返回的结果参数
      */
-    public CommandResult(Command command, CommandResultType type, R... result) {
+    public CommandResult(CommandResultType type, R... result) {
         this.type = type;
         this.result = Lists.newArrayList(result);
-        this.command = command;
     }
 
     /**
@@ -58,9 +54,5 @@ public class CommandResult<R> {
      */
     public List<? extends R> getResult() {
         return result;
-    }
-
-    public Command getCommand() {
-        return command;
     }
 }

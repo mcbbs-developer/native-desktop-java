@@ -56,7 +56,7 @@ public final class Game {
 
     public enum Type {
         /**
-         * 原版(香草)
+         * <strike>(香草)</strike>
          * Vanilla version.
          */
         VANILLA,
@@ -71,8 +71,9 @@ public final class Game {
          */
         @Deprecated MODLOADER,
         /**
+         * <strike>(完善的设置)</strike>
          * 高清修复独立版
-         * OptiFine Independent version.
+         * OptiFine's independent version.
          */
         OPTIFINE,
         /**

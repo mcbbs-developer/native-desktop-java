@@ -22,9 +22,11 @@ import net.mcbbs.client.api.plugin.event.CommandEvent;
 import net.mcbbs.client.api.plugin.event.construction.MappingEvent;
 import net.mcbbs.client.api.plugin.event.construction.PluginConstructionEvent;
 import net.mcbbs.client.api.plugin.meta.PluginMetadata;
+import net.mcbbs.client.plugin.minecraft.command.CommandLauncher;
 
 public class Minecraft implements IPlugin {
     String modid;
+
     @Override
     public void onEnabled(PluginMetadata key) {
         modid = key.id;
@@ -46,6 +48,6 @@ public class Minecraft implements IPlugin {
 
     @Plugin.SubscribeEvent(CommandEvent.class)
     public void onRegisterCommand(CommandEvent event){
-        event.provide(modid,"minecraft",null);
+        event.provide(modid,"minecraft",new CommandLauncher());
     }
 }
