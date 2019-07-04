@@ -8,7 +8,7 @@
 <SplitPane xmlns:fx="http://javafx.com/fxml/1" dividerPositions="0.2508361204013378" maxHeight="-Infinity"
            maxWidth="-Infinity"
            minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
-           xmlns="http://javafx.com/javafx/8" fx:controller="net.mcbbs.client.installer.WelcomePage">
+           xmlns="http://javafx.com/javafx/8" fx:controller="net.mcbbs.app.desktop.java.installer.WelcomePage">
     <items>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
             <children>
