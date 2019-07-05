@@ -38,7 +38,7 @@ public class Minecraft implements IPlugin {
     }
 
     @Plugin.SubscribeEvent(MappingEvent.Methods.class)
-    public void onMappingMethod(MappingEvent.Methods event) throws NoSuchMethodException {
+    public void onMappingMethod(MappingEvent.Methods event) {
     }
 
     @Plugin.SubscribeEvent(PluginConstructionEvent.ServiceMapping.class)

@@ -18,6 +18,7 @@ package net.mcbbs.app.desktop.java.plugin.minecraft.game;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import net.mcbbs.app.desktop.java.plugin.minecraft.game.info.GameConfig;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;
@@ -25,26 +26,23 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class GameRoot implements IGameRoot {
+
     private final Path configJson;
     private final Game.Type gameType;
     private final Path assetsIndex;
     private final Path libraryIndex;
     private final Path nativeIndex;
     private final Path gameJar;
-
-    protected GameRoot(@Nonnull Path configJson) throws IOException, InvalidGameException {
-        this.configJson = configJson;
+    private final Path versionCfg;
+    protected GameRoot(@Nonnull GameRepo repo,@Nonnull GameConfig cfg) throws IOException, InvalidGameException {
+        this.configJson = cfg.getConfigJson();
+        this.versionCfg = cfg.getVersionCfg();
         JsonParser jsonParser = new JsonParser();
         JsonObject parsed = jsonParser.parse(Files.newBufferedReader(configJson)).getAsJsonObject();
-        if (parsed.has("inheritsFrom") || !parsed.get("mainClass").getAsString().contentEquals("net.minecraft.client.main.Main")) {
-            String id = parsed.get("id").getAsString();
-            if (id.contains("fabric")) gameType = Game.Type.FABRIC;
-            else if (id.contains("forge")) gameType = Game.Type.FORGE;
-            else if (id.contains("optifine")) gameType = Game.Type.OPTIFINE;
-                //else if(id.contains("modloader"))gameType = Game.Type.MODLOADER;
-            else throw new InvalidGameException("Unable to identity game type:".concat(id));
-        } else gameType = Game.Type.VANILLA;
-        assetsIndex = null;
+        gameType= Game.Type.verifyGameType(parsed.getAsJsonPrimitive("id").getAsString());
+        if(parsed.has("inheritsFrom")){
+            GameRoot root = repo.require(parsed.getAsJsonPrimitive("inheritsFrom").getAsString());
+        }
         libraryIndex = null;
         nativeIndex = null;
         gameJar = null;
@@ -89,6 +87,5 @@ public class GameRoot implements IGameRoot {
     public boolean checkAssets() throws IOException {
         return false;
     }
-
 
 }
