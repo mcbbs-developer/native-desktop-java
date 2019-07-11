@@ -16,7 +16,6 @@
 
 package net.mcbbs.app.desktop.java.main.client.net;
 
-import net.mcbbs.app.desktop.java.main.client.command.CommandDispatcher;
 import net.mcbbs.app.desktop.java.main.client.command.CommandParser;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
@@ -38,7 +37,7 @@ public class WSClient extends WebSocketClient {
 
     @Override
     public void onMessage(String s) {
-        CommandDispatcher.DISPATCHER.dispatchAsync(parser.parse(s));
+
     }
 
     @Override

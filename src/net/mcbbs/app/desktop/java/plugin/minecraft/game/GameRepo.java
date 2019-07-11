@@ -49,29 +49,7 @@ public class GameRepo {
     }
 
     private GameRoot loadGame(Path path) throws IOException, InvalidGameException {
-        Files.walkFileTree(path, new FileVisitor<Path>() {
-            @Override
-            public FileVisitResult preVisitDirectory(Path path, BasicFileAttributes basicFileAttributes) throws IOException {
-                return FileVisitResult.CONTINUE;
-            }
 
-            @Override
-            public FileVisitResult visitFile(Path path, BasicFileAttributes basicFileAttributes) throws IOException {
-                if(path.endsWith(".jar")){
-                    path.g
-                }
-            }
-
-            @Override
-            public FileVisitResult visitFileFailed(Path path, IOException e) throws IOException {
-                return FileVisitResult.CONTINUE;
-            }
-
-            @Override
-            public FileVisitResult postVisitDirectory(Path path, IOException e) throws IOException {
-                return FileVisitResult.CONTINUE;
-            }
-        });
         return new GameRoot(this,new GameConfig(versionCfgs.resolve()))
     }
 
